@@ -6,8 +6,5 @@ attr_accessor :brand, :color, :size, :material, :condition
   end
 
   def cobble (cobble)
-    @cobble = cobble
-    puts "shoe repaired"
-    @condition = "new"
  end
 end
